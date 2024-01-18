@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header_area{
+    width: 100%;
+    height: 25px;
+    background-color: #36454f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar ul{
+    display: flex;
+    gap: 2rem;
+}
+
+#navbar ul li{
+   list-style: none; 
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:link,
+#navbar ul li a:visited {
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all  0.3s;
+}
